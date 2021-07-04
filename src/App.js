@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import HomePage from "./pages";
-import DashboardWrapper from "./dashboard";
+import DashboardWrapper from "./dashboard/layout";
 import MediasPage from "./pages/admin/medias";
 import ServersPage from "./pages/admin/servers";
 import ContactsPage from "./pages/admin/contacts";
